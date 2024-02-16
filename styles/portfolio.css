@@ -268,23 +268,31 @@ font-size: 25px;
 }
 .info{
     padding-left: 300px;
+    
 }
 @media (max-width:960px) {
     .info{
-        padding-left: 1px;
+        padding: 0;
         margin: 0 auto;
+        
+        }     
 
     }
+  
+        
+    .info-section{
+        margin: 0 auto;
+    }
     
-}
+
 hr{
     width: 50%;
-    margin-left: 290px;
+    
 }
 @media (max-width:960px) {
     hr{
         width: 100%;
-        margin-left: 2px;
+        
     }
     
 }
@@ -305,7 +313,12 @@ hr{
 .before-footer{
     margin-top: 50px;
 }
+@media (max-width:960px) {
+    .info-1{
+    font-size: 13px;
 
+}
+}
 
 
     
