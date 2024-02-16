@@ -194,7 +194,7 @@ font-size: 25px;
   
   .card{
     border-radius: 10px 10px 10px 10px;
-  padding: 5px;
+ 
    width: 18rem;
    
    
@@ -205,6 +205,10 @@ font-size: 25px;
     font-size: 40px;
     color: goldenrod;
     text-align: center;
+    display: block;
+    margin: 0 auto;
+   
+
 
 
   }
@@ -212,20 +216,17 @@ font-size: 25px;
   @media (max-width: 960px) {
     .card {
        width:300px;
+       display: block;
+       margin: 0 auto;
 
-       margin-left: -100px;
+      
     }
     .card-title{
         text-align: center;
     }
 }
  
-  .section-two-columns{
-  
-    padding: 150px;
-
-
-  }
+ 
   @media (max-width:960px) {
     .section-two-columns{
         padding-top: 50px;
@@ -270,7 +271,8 @@ font-size: 25px;
 }
 @media (max-width:960px) {
     .info{
-        padding-left: 2px;
+        padding-left: 1px;
+        margin: 0 auto;
 
     }
     
@@ -296,9 +298,12 @@ hr{
 @media (max-width: 960px) {
     .portfolio{
         width: 100%;
-         margin-left: -70px;
+        
     }
     
+}
+.before-footer{
+    margin-top: 50px;
 }
 
 
