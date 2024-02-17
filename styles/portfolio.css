@@ -29,7 +29,7 @@ h6{
 }
 .hero h1{
   
-    font-size: 47px;
+    font-size: 45px;
     text-align: left;
 
    
@@ -327,6 +327,12 @@ hr{
     font-size: 13px;
 
 }
+.screenshot{
+    display: block;
+    margin: 0 auto;
+    
+}
+
 }
 
 .profile-image{
@@ -334,4 +340,5 @@ hr{
     padding: 30px;
     
 }
+
     
