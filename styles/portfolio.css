@@ -44,6 +44,12 @@ h6{
     }
    
 }
+.about-hero{
+    h2{
+ font-size: 18px;
+ 
+    }
+}
 .hero p {
   
     font-weight: 400; 
