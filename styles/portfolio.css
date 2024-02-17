@@ -44,11 +44,13 @@ h6{
     }
    
 }
-.about-hero{
-    h2{
+.about-hero h2{
+    
  font-size: 18px;
- 
-    }
+    
+}
+.about-section-content{
+    margin: 50px;
 }
 .hero p {
   
@@ -62,11 +64,12 @@ h6{
 @media (max-width: 960px){
     .hero p{
        
+        text-align: center;  
+        
+    }
+    .about-hero{
         text-align: center;
-        
-      
-        
-        
+        padding: 0;
     }
 }
 
@@ -326,5 +329,9 @@ hr{
 }
 }
 
-
+.profile-image{
+    border-radius: 35px;
+    padding: 30px;
+    
+}
     
