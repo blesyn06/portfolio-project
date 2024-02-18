@@ -382,3 +382,12 @@ footer{
     font-size: 14px;
    
 }
+.github{
+    color: #1bae70;
+    text-decoration: none;
+}
+.github:hover{
+    color: red;
+    text-decoration: underline;
+
+}
