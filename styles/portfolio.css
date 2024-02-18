@@ -330,7 +330,7 @@ hr{
 .screenshot{
     display: block;
     margin: 0 auto;
-    
+
 }
 
 }
@@ -341,4 +341,34 @@ hr{
     
 }
 
+.logo{
+    max-width: 107px;
+}
     
+
+.navbar-nav{
+    display: flex;
+    margin-left: 120px;
+}
+.nav-item{
+   
+    margin-left: 50px;
+    font-size: 16px;
+}
+.nav-item:hover{
+    
+    background-color:#1bae70; 
+    
+}
+
+.btn-hire{
+    
+        background-color:#1bae70;
+        color: white;
+       border-radius: 5px;
+       text-align: center;
+       width: 120px;
+       font-weight: 800px;
+       padding: 8px ;
+        
+}
